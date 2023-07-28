@@ -9,7 +9,10 @@
         <div class="col-12 col-md-6 col-lg-4">
             <div class="card d-flex flex-column align-items-stretch">
                 <h2>
-                    Our Goal
+                    <strong>
+                        Our Goal
+                    </strong>
+                    
                 </h2>
                 <p>
                     Interactions with patients, clinical diagnoses, and potential treatments can be augmented and documented more accurately and in near real-time
@@ -19,7 +22,12 @@
         <div class="col-12 col-md-6 col-lg-4">
             <div class="card d-flex flex-column align-items-stretch">
                 <h2>
-                    Our Vision
+                    
+                    <strong>
+                        Our Vision
+                    </strong>
+
+                    
                 </h2>
                 <p>
                     To develop a safe world with health and wealth. To help in the development of effective and interpersonal relationship skills with patients, doctors, and colleagues
@@ -29,7 +37,9 @@
         <div class="col-12 col-md-6 col-lg-4">
             <div class="card d-flex flex-column align-items-stretch">
                 <h2>
-                    Our Mission
+                    <strong>
+                        Our Mission 
+                    </strong>
                 </h2>
                 <p>
                     Managing one's own medicines is a skill that is necessary for successful independent living.

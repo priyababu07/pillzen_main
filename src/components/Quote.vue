@@ -20,7 +20,7 @@
   
   <style scoped>
   .container {
-    min-height: 100vh;
+    min-height: 500px;
     width: 100%;
     display: flex;
     justify-content: center;

@@ -4,17 +4,18 @@ import NavBar from "./components/NavBar.vue"
 import Image from "./components/Image.vue"
 import Quote from "./components/Quote.vue"
 import About from "./components/About.vue"
+import AboutUs from "./components/AboutUs.vue"
+import Footer from "./components/Footer.vue"
 
 </script>
 
 <template>
 <NavBar/>
 <Image/>
-
 <Quote/>
+<AboutUs/>  
 <CardContainer/>
-<About/>
-
+<Footer/>
 </template>
 
 <style scoped>

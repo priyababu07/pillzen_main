@@ -68,4 +68,7 @@
         margin-bottom: 5px; /* Reduce vertical spacing on smaller screens */
       }
     }
+    section{
+      margin-top:20px
+    }
   </style>

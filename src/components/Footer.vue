@@ -45,6 +45,7 @@ section {
   display: flex; 
   justify-content: center;
   margin: 10px; 
+  
 }
 
 section i {
@@ -59,5 +60,8 @@ footer{
 }
 p{
   margin-top: 30px;
+}
+a{
+  text-decoration: none;
 }
 </style>

@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <footer>
+  <footer id="contact">
     <h2>
       <strong>
         Contact Us Via:

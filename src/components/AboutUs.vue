@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section id="about">
         <br>
       <h2>
         <strong>About Us</strong>

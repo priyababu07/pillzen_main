@@ -63,18 +63,18 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-	margin-top: 20px;
+	margin-top: 50px;
 }
 .team-content{
 	width:80%;
 	max-width: 1100px;
 	margin: 0 auto;
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+	grid-template-columns: repeat(auto-fit, minmax(300px, auto));
 	align-items: center;
 	gap: 4rem;
 	text-align: center;
-	margin-top: 4rem;
+	margin-top: 5rem;
 }
 .team-content img{
 	width: 40%;

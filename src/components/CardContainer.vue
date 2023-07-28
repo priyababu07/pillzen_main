@@ -8,6 +8,7 @@
         <h2>
             Services
         </h2>
+        <br>
        <div class="row g-3">
         
         <div class="col-12 col-md-6 col-lg-4">
@@ -58,7 +59,8 @@
     box-shadow: 0px 30px 30px -4px rgba(0, 0, 0, 0.1), 0px 4px 8px -4px rgba(0, 0, 0, 0.3); /* Custom box shadow and dark shadow with the same box width */
         transition: box-shadow 0.3s ease; /* Optional: Add a smooth transition effect */
         height: 100%; /* Set a fixed height for the card */
-       margin-bottom: 70px;
+       margin-bottom: 30%;
+       margin-top: 7%;
        
     }
     p{
@@ -68,6 +70,8 @@
     }
     h1{
        margin-bottom: 40px;
+       margin-top: 10%;
+       font-size: larger;
     }
     h2{
         text-align: center;
@@ -87,6 +91,7 @@
     h2{
         text-align: center;
         margin-bottom: 20px;
+        font-weight:bold;
     }
 }
     

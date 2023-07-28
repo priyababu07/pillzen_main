@@ -7,7 +7,7 @@
         <h2>
 
             <strong>
-                Pillzen Pvt.Ltd.
+                About Us
             </strong>
         </h2>
         <p>
@@ -35,7 +35,14 @@ background-color: chocolate;
 color: aliceblue;
 border-radius: 30px;
 border: none;
+margin-left:10px
 
+}
+p{
+  margin-left:10px  ;
+  margin-right: 10px;
+  font-size: larger;
+  line-height: 30px;
 }
 
 

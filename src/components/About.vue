@@ -1,4 +1,3 @@
-<!-- "WhyMedicaze.vue" -->
 <template>
     <section>
       <p>

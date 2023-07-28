@@ -16,6 +16,7 @@
             data enhances medication management. This addresses challenges faced by older individuals ,reducing errors and
             streamlining record-keeping and communication.
         </p>
+        <button>About Us-&rarr;</button>
     </section>
 </template>
 <style scoped>
@@ -27,4 +28,15 @@ h2 {
     text-align: center;
     margin-bottom: 20px;
 
-}</style>
+}
+
+button{
+background-color: chocolate;
+color: aliceblue;
+border-radius: 30px;
+border: none;
+
+}
+
+
+</style>

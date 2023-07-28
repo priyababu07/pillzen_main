@@ -10,7 +10,7 @@
       </strong>
     </h2>
     <section>
-        <a href="https://www.instagram.com//" target="_blank" class="icon-link">
+        <a href="https://www.instagram.com/pillzen_pvt.ltd._/" target="_blank" class="icon-link">
         <i class="fab fa-instagram"></i>
       </a>
       <a href="https://api.whatsapp.com/send?phone=8075817184" target="_blank" class="icon-link">

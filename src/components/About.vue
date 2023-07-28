@@ -1,6 +1,9 @@
 <!-- "WhyMedicaze.vue" -->
 <template>
     <section>
+      <p>
+        
+      </p>
       <div class="background-container">
         <div class="about">
           <h2>Why Medicaze ?</h2>

@@ -1,4 +1,3 @@
-<!-- "WhyMedicaze.vue" -->
 <template>
   <section>
     <div class="background-container">
@@ -13,7 +12,9 @@
         </ul>
       </div>
     </div>
+    <button><router-link to="/">back</router-link></button>
   </section>
+  
 </template>
 
 <style scoped>

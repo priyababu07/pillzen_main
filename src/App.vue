@@ -1,12 +1,12 @@
 <script setup>
-import CardContainer from "./components/CardContainer.vue"
-import NavBar from "./components/NavBar.vue"
-import Image from "./components/Image.vue"
-import Quote from "./components/Quote.vue"
-import About from "./components/About.vue"
-import Member from './components/Member.vue'
-import AboutUs from "./components/AboutUs.vue"
-import Footer from "./components/Footer.vue"
+import NavBar from "./components/NavBar.vue";
+import Image from "./components/Image.vue";
+import Quote from "./components/Quote.vue";
+import AboutUs from "./components/AboutUs.vue";
+import CardContainer from "./components/CardContainer.vue";
+import Member from "./components/Member.vue"
+import Footer from "./components/Footer.vue";
+import {RouterView} from "vue-router"
 
 </script>
 
@@ -14,10 +14,12 @@ import Footer from "./components/Footer.vue"
 <NavBar/>
 <Image/>
 <Quote/>
-<AboutUs/>  
+<AboutUs/> 
+<RouterView/> 
 <CardContainer/>
 <Member/>
 <Footer/>
+
 </template>
 
 <style scoped>

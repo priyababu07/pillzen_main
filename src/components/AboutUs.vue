@@ -15,7 +15,7 @@
           streamlining record-keeping and communication .
         </p>
       </div>
-      <button><router-link to="/about">Learn More</router-link></button>
+      <button><router-link to="/about" style="text-decoration: none; color: black;">Learn More</router-link></button>
     </div>
   </section>
 </template>
@@ -41,6 +41,7 @@ button {
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
+  
 }
 
 .content-wrapper {

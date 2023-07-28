@@ -77,6 +77,7 @@
         text-align: center;
         margin-bottom: 20px;
     }
+    
     .card:hover{
         transform: translateY(-10px);
 	cursor: pointer; 

@@ -10,9 +10,11 @@
           <li>Integration of medication adherence data and medical records improves communication and collaboration between patients and healthcare providers.</li>
           <li>User-friendly interface, pre-filled medication box, and centralized access to EHR data reduce complexity and cost, saving time and effort in managing medications and communicating with healthcare providers.</li>
         </ul>
+        <button><router-link to="/" style="text-decoration: none; color: black;">back</router-link></button>
       </div>
+      
     </div>
-    <button><router-link to="/">back</router-link></button>
+    
   </section>
   
 </template>
@@ -20,7 +22,7 @@
 <style scoped>
   .background-container {
     background-image: url("/assets/image 44.png");
-    height: 100vh;
+    height: 60%;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -58,6 +60,18 @@
   li {
     margin-bottom: 10px; /* Add some vertical spacing between list items */
   }
+  button {
+  background-color: chocolate;
+  color: aliceblue;
+  border-radius: 30px;
+  border: none;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  
+}
 
   /* Responsive styles */
   @media screen and (max-width: 768px) {

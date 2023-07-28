@@ -63,10 +63,7 @@
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
-<<<<<<< HEAD
-=======
 	margin-top: 20px;
->>>>>>> rahul
 }
 .team-content{
 	width:80%;

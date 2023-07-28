@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar.vue"
 import Image from "./components/Image.vue"
 import Quote from "./components/Quote.vue"
 import About from "./components/About.vue"
+
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import About from "./components/About.vue"
 <Quote/>
 <CardContainer/>
 <About/>
+
 </template>
 
 <style scoped>

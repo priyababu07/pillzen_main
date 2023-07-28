@@ -9,13 +9,7 @@
             Services
         </h2>
        <div class="row g-3">
-<<<<<<< HEAD
-        <center>
-        <h1>Heading</h1>
-    </center>
-=======
         
->>>>>>> rahul
         <div class="col-12 col-md-6 col-lg-4">
             <div class="card d-flex flex-column align-items-stretch">
                 <center>
@@ -75,20 +69,15 @@
     h1{
        margin-bottom: 40px;
     }
-<<<<<<< HEAD
-=======
     h2{
         text-align: center;
         margin-bottom: 20px;
     }
->>>>>>> rahul
     .card:hover{
         transform: translateY(-10px);
 	cursor: pointer; 
     background-color:  rgb(12, 168, 147); 
     }
-<<<<<<< HEAD
-=======
     @media (max-width: 768px){
         .card:hover{
         transform: translateY(-10px);
@@ -100,6 +89,5 @@
         margin-bottom: 20px;
     }
 }
->>>>>>> rahul
     
 </style>

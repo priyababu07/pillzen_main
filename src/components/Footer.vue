@@ -28,11 +28,10 @@
 </template>
 
 <style scoped>
-/* Your existing styles for h2 and section */
+
 h2 {
   margin-top: 20px;
-  /* text-align: center; */
-  /* Center the content horizontally */
+
 }
 
 h2 {
@@ -43,15 +42,15 @@ h2 {
 
 
 section {
-  display: flex; /* Use flexbox to align the icons horizontally */
-  justify-content: center; /* Center the icons horizontally */
-  margin: 10px; /* Add space around the icons */
+  display: flex; 
+  justify-content: center;
+  margin: 10px; 
 }
 
 section i {
-  margin: 0 10px; /* Add space between the icons */
-  font-size: 24px; /* Adjust the icon size */
-  color: #000; /* Adjust the icon color */
+  margin: 0 10px; 
+  font-size: 24px; 
+  color: #000; 
 }
 footer{
   margin-top: 60px;

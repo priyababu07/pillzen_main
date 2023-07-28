@@ -268,6 +268,9 @@
 	.center h1{
 		font-size: 3.2rem;
 	}
+	.team-content{
+	  justify-content: center;
+	}
 }
  
   </style>

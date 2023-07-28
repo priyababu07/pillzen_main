@@ -23,6 +23,7 @@
         <i class="fas fa-phone"></i>
       </a>
     </section>
+    <p>All Right Reserved @Pillzen</p>
   </footer>
 </template>
 
@@ -30,7 +31,7 @@
 /* Your existing styles for h2 and section */
 h2 {
   margin-top: 20px;
-  text-align: center;
+  /* text-align: center; */
   /* Center the content horizontally */
 }
 
@@ -54,6 +55,10 @@ section i {
 }
 footer{
   margin-top: 60px;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+p{
+  margin-top: 30px;
 }
 </style>

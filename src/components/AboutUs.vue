@@ -21,7 +21,8 @@
 </template>
 <style scoped>
 section {
-    margin-left: 10px
+    margin-left: 10px;
+    margin-top:40px;
 }
 
 h2 {

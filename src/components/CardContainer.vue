@@ -5,10 +5,11 @@
 <template>
 <br>
     <div class="container">
+        <h2>
+            Services
+        </h2>
        <div class="row g-3">
-        <center>
-        <h1>Heading</h1>
-    </center>
+        
         <div class="col-12 col-md-6 col-lg-4">
             <div class="card d-flex flex-column align-items-stretch">
                 <center>
@@ -68,10 +69,25 @@
     h1{
        margin-bottom: 40px;
     }
+    h2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
     .card:hover{
         transform: translateY(-10px);
 	cursor: pointer; 
     background-color:  rgb(12, 168, 147); 
     }
+    @media (max-width: 768px){
+        .card:hover{
+        transform: translateY(-10px);
+	cursor: pointer; 
+    background-color:  rgb(12, 168, 147); 
+    }
+    h2{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
     
 </style>

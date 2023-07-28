@@ -1,7 +1,7 @@
 <template>
     <div class="container">
       <div class="message-bubble">
-        <p class="subtitle">Pillzen offers an effortless <br> medication tracking,<br> adherence, communication,<br> and centralized <br> medical information.</p>
+        <p class="subtitle">Pillzen offers an effortless medication tracking,<br> adherence, communication,<br> and centralized <br> medical information.</p>
       </div>
   
       <div class="paragraph">
@@ -20,7 +20,7 @@
   
   <style scoped>
   .container {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     width: 100%;
     display: flex;
     justify-content: center;
@@ -37,7 +37,7 @@
     position: relative;
     max-width: 500px;
     margin-right: 270px;
-    margin-bottom: 300px;
+    margin-top: 50px;
   }
   
   .message-bubble::before {
@@ -57,14 +57,15 @@
   }
   
   .paragraph {
-    font-family: 'Dancing Script', cursive;
+    font-family:'Dancing Script',cursive;
+    
     margin-right: 50px;
-    margin-bottom: 300px;
+    /* margin-bottom: 300px; */
     font-size: 25px;
   }
   
   .image-container {
-    margin-bottom: 330px;
+    /* margin-bottom: 330px; */
     padding-left: 1rem; /* Add some spacing between the image and the message content */
   }
   

@@ -9,7 +9,7 @@
     </div>
 
     <div class="image-container">
-      <img src="/assets/PhotoFunia-1689611954 1.png" alt="Your Image" class="image" />
+      <img src="/assets/PhotoFunia-16896119541.png" alt="Your Image" class="image" />
     </div>
   </div>
 </template>

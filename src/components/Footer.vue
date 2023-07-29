@@ -1,5 +1,5 @@
 <script setup>
-
+import { Icon } from '@iconify/vue';
 </script>
 
 <template>
@@ -9,18 +9,18 @@
         Contact Us Via:
       </strong>
     </h2>
-    <section>
-        <a href="https://www.instagram.com/pillzen_pvt.ltd._/" target="_blank" class="icon-link">
-        <i class="fab fa-instagram"></i>
+    <section class="icon-section">
+      <a href="https://www.instagram.com/pillzen_pvt.ltd._/" target="_blank" class="icon-link">
+        <Icon icon="fa6-brands:instagram" class="custom-icon"/>
       </a>
       <a href="https://api.whatsapp.com/send?phone=8075817184" target="_blank" class="icon-link">
-        <i class="fab fa-whatsapp"></i>
+        <Icon icon="fa6-brands:whatsapp" class="custom-icon"/>
       </a>
       <a href="mailto:abhishekbiju1920@gmail.com" class="icon-link">
-        <i class="far fa-envelope"></i>
+        <Icon icon="cib:gmail" class="custom-icon"/>
       </a>
       <a href="tel:+91 8075817184" class="icon-link">
-        <i class="fas fa-phone"></i>
+        <Icon icon="material-symbols:call-outline" class="custom-icon"/>
       </a>
     </section>
     <p>All Right Reserved @Pillzen</p>
@@ -28,10 +28,9 @@
 </template>
 
 <style scoped>
-
 h2 {
   margin-top: 20px;
-
+  margin-bottom: 20px;
 }
 
 h2 {
@@ -40,28 +39,34 @@ h2 {
   padding-bottom: 5px;
 }
 
-
-section {
-  display: flex; 
+section.icon-section {
+  display: flex;
   justify-content: center;
-  margin: 10px; 
-  
+  margin: 10px;
 }
 
-section i {
-  margin: 0 10px; 
-  font-size: 24px; 
-  color: #000; 
+section a {
+  margin: 0 10px;
+  color: #000;
+  font-size: 32px;
 }
-footer{
+
+.custom-icon {
+  margin: 0 5px;
+}
+
+footer {
   margin-top: 60px;
   margin-bottom: 10px;
   text-align: center;
 }
-p{
-  margin-top: 30px;
+
+p {
+  margin-top: 20px;
 }
-a{
+
+a {
   text-decoration: none;
 }
+
 </style>

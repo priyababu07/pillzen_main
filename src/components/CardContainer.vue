@@ -1,99 +1,91 @@
-<script setup>
-
-</script>
-
 <template>
-<br>
+    <br>
     <div class="container" id="services">
-        <h2>
-            Services
-        </h2>
-        <br>
-       <div class="row g-3">
-        
-        <div class="col-12 col-md-6 col-lg-4">
-            <div class="card d-flex flex-column align-items-stretch">
-                <center>
-                <h2>
-                    Our Goal
-                </h2>
-            </center>
-                <br>
-                <p>
-                     Interactions  with  patients, clinical  diagnoses, and potential treatments can be augmented and documented more accurately and in near real-time
-                </p>
-            </div>
+  
+      <br>
+      <div class="row g-3 justify-content-center">  
+  
+        <div class="card">
+          <h2>Our Goal</h2>
+          <br>
+          <p>Interactions with patients, clinical diagnoses, and potential treatments can be augmented and documented more accurately and in near real-time</p>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            <div class="card d-flex flex-column align-items-stretch">
-        <center>
-                <h2>
-                    Our Vision
-                </h2>
-            </center>
-                <br>
-                <p>
-                    To develop a safe world with health and wealth. To help in the development of effective and interpersonal relationship skills with patients, doctors, and colleagues
-                </p>
-            </div>
+  
+        <div class="card">
+          <h2>Our Vision</h2>
+          <br>
+          <p>To develop a safe world with health and wealth. To help in the development of effective and interpersonal relationship skills with patients, doctors, and colleagues</p>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
-            <div class="card d-flex flex-column align-items-stretch">
-            <center>
-                <h2>
-                    Our Mission
-                </h2>
-            </center>
-                <br>
-                <p>
-                    Managing one's own medicines is a skill that is necessary for successful independent living.
-                </p>
-            </div>
+  
+        <div class="card">
+          <h2>Our Mission</h2>
+          <br>
+          <p>Managing one's own medicines is a skill that is necessary for successful independent living.</p>
         </div>
-       </div> 
+  
+      </div>
     </div>
-</template>
+  </template>
 
+  
 <style scoped>
-  .card {
-    box-shadow: 0px 30px 30px -4px rgba(0, 0, 0, 0.1), 0px 4px 8px -4px rgba(0, 0, 0, 0.3); /* Custom box shadow and dark shadow with the same box width */
-        transition: box-shadow 0.3s ease; /* Optional: Add a smooth transition effect */
-        height: 100%; /* Set a fixed height for the card */
-       margin-bottom: 30%;
-       margin-top: 7%;
-       
-    }
-    p{
-        margin-left: 10px;
-        margin-right: 10px;
-        font-size:20px;
-    }
-    h1{
-       margin-bottom: 40px;
-       margin-top: 10%;
-       font-size: larger;
-    }
-    h2{
-        text-align: center;
-        margin-bottom: 20px;
-    }
-    
-    .card:hover{
-        transform: translateY(-10px);
-	cursor: pointer; 
-    background-color:  rgb(12, 168, 147); 
-    }
-    @media (max-width: 768px){
-        .card:hover{
-        transform: translateY(-10px);
-	cursor: pointer; 
-    background-color:  rgb(12, 168, 147); 
-    }
-    h2{
-        text-align: center;
-        margin-bottom: 20px;
-        font-weight:bold;
-    }
+.card {
+  box-shadow: 0px 30px 30px -4px rgba(0, 0, 0, 0.1), 0px 4px 8px -4px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.3s ease;
+  max-width: 298px;
+  margin-right: 30px;
+  text-align: center;
+  padding: 2px;
 }
-    
+
+.row.g-3 {
+  gap: 10px;
+  /* Adjust the gap value as needed to set the spacing between cards */
+}
+
+p {
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+  background-color: rgb(12, 168, 147);
+}
+
+@media (max-width: 768px) {
+  .card:hover {
+    transform: translateY(-10px);
+    cursor: pointer;
+    background-color: rgb(12, 168, 147);
+  }
+  .card{
+    display: flex;
+    flex-direction: column;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .card:hover {
+  transform: translateY(-10px);
+  cursor: pointer;
+  background-color: rgb(12, 168, 147);
+}
+}
 </style>
+   
+  
+  

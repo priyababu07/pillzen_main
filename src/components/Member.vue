@@ -75,6 +75,7 @@
 	gap: 4rem;
 	text-align: center;
 	margin-top: 5rem;
+	padding-left: 60px;
 }
 .team-content img{
 	width: 40%;
@@ -110,7 +111,7 @@
 	margin-bottom: 8px;
 }
 .box2{
-	padding: 16px;
+	/* padding: 16px; */
   background-image:url("/assets/Group 241.png");
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   border-radius: 50%; /* Set border-radius to 50% for rounded card */
@@ -156,7 +157,7 @@
 	margin-bottom: 8px;
 }
 .box4{
-	padding: 16px;
+	/* padding: 16px; */
   background-image:url("/assets/Group 246.png");
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   border-radius: 50%; /* Set border-radius to 50% for rounded card */
@@ -201,9 +202,10 @@
 	color: #181717;
 	margin-bottom: 8px;
 }
+
 .box6{
-	padding: 16px;
-  background-image:url("/assets/Group 248.png");
+	/* padding: 16px; */
+	background-image:url("/assets/Group 248.png");
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   border-radius: 50%; /* Set border-radius to 50% for rounded card */
   transition: all .38s ease;
@@ -213,6 +215,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-right: 70px;
   
     
 }
@@ -260,21 +263,6 @@
 }
 
 
-/* @media(max-width: 1240px){
-	.team{
-		width: 100%;
-		height: auto;
-		padding: 90px 2%;
-	}
-	.center h1{
-		font-size: 3.2rem;
-	}
-	.team-content{
-	  justify-content: center;
-	}
-} */
-/* Existing CSS code... */
-
 @media (max-width: 1240px) {
 	.team {
 		width: 100%;
@@ -294,7 +282,7 @@
 	}
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
 	.team-content {
 		display: flex;
 		flex-direction: column;
@@ -307,11 +295,39 @@
 	.box4,
 	.box5,
 	.box6 {
-		margin-right: 0; /* Remove right margin to center the boxes */
-		margin-bottom: 20px; /* Add some space between the boxes */
+		margin-right: 0; /* Remove right margin to center the boxes 
+		margin-bottom: 20px; /* Add some space between the boxes 
 	}
-}
+} */
+@media (max-width: 767px) {
+    .team-content {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); /* Two boxes in the same row */
+      gap: 10px; /* Add some gap between the boxes */
+      justify-items: center; /* Center the boxes horizontally in mobile view */
+    }
 
+    .box1,
+    .box2,
+    .box3,
+    .box4,
+    .box5,
+    .box6 {
+		
+      margin-bottom: 50px; /* Remove margin bottom to avoid excessive spacing */
+    }
+	.box1,
+	.box3,
+	.box5{
+		margin-left: 15px;
+	}
+	
+    .box2,
+    .box4,
+    .box6 {
+		padding-right: 15px;
+	}
+  }
  
   </style>
   

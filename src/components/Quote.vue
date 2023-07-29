@@ -35,9 +35,10 @@
   z-index: 10;
   color: rgb(15, 14, 14);
   position: relative;
-  max-width: 500px;
+  max-width: 200px;
   margin-right: 270px;
   margin-top: 50px;
+  
 }
 
 .message-bubble::before {
@@ -81,10 +82,11 @@
 }
 
 .message-bubble {
-  max-width: 90%; /* Set the message bubble width to adjust for smaller screens */
+  max-width: 60%; /* Set the message bubble width to adjust for smaller screens */
   margin-bottom: 15px; /* Adjust the margin for better spacing */
   margin-right: 0;
   margin-top: 15px;
+  max-height: 100%;
 }
 
 .paragraph {

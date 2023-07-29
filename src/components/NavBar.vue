@@ -7,7 +7,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary fixed-top">
   <div class="container-fluid">
     
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="/">
         <img src="/assets/pillzen-logo 2.png" alt="Logo" width="110" height="40" class="d-inline-block align-text-top">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">

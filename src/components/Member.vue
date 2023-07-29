@@ -260,7 +260,7 @@
 }
 
 
-@media(max-width: 1240px){
+/* @media(max-width: 1240px){
 	.team{
 		width: 100%;
 		height: auto;
@@ -272,7 +272,46 @@
 	.team-content{
 	  justify-content: center;
 	}
+} */
+/* Existing CSS code... */
+
+@media (max-width: 1240px) {
+	.team {
+		width: 100%;
+		height: auto;
+		padding: 90px 2%;
+	}
+
+	.center h1 {
+		font-size: 3.2rem;
+	}
+
+	.team-content {
+		justify-content: center;
+		display: flex;
+		flex-direction: column;
+		
+	}
 }
+
+@media (max-width: 767px) {
+	.team-content {
+		display: flex;
+		flex-direction: column;
+		justify-content: center; 
+	}
+	
+	.box1,
+	.box2,
+	.box3,
+	.box4,
+	.box5,
+	.box6 {
+		margin-right: 0; /* Remove right margin to center the boxes */
+		margin-bottom: 20px; /* Add some space between the boxes */
+	}
+}
+
  
   </style>
   

@@ -360,7 +360,7 @@
 }
 
 */
-@media (max-width: 1240px) {
+@media (max-width: 1440px) {
   .team {
     width: 100%;
     height: auto;

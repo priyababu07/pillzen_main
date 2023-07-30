@@ -418,7 +418,7 @@
 	.box2,
     .box4,
     .box6 {
-      margin-left: 15px;
+      /* margin-left: 15px; */
 	  padding-right: 10px;
     } 
 	.box1,

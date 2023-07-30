@@ -88,21 +88,22 @@
 	font-size: 4rem;
 	text-align: center;
 }
-.box1{
-	padding: 16px;
-  background-image:url("/assets/Group 240.png");
+.box1 {
+  padding: 16px;
+  background-image: url("/assets/mem1.png");
+  background-size: cover; /* Add this property to fit the image inside the box */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-  border-radius: 50%; /* Set border-radius to 50% for rounded card */
+  border-radius: 50%;
   transition: all .38s ease;
-  width: 150px; /* Set the width and height of the card as needed */
+  width: 150px;
   height: 160px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-right: 70px;
-    
 }
+
 .box1 h3{
     margin-top: 230px;
 	font-size: 15px;

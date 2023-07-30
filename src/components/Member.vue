@@ -263,7 +263,7 @@
 	cursor: pointer;
 }
 
-
+/*
 @media (max-width: 1240px) {
 	.team {
 		width: 100%;
@@ -302,12 +302,13 @@
 		margin-bottom: 20px; /* Add some space between the boxes 
 	}
 } */
+/*
 @media (max-width: 767px) {
     .team-content {
       display: grid;
-      grid-template-columns: repeat(2, 1fr); /* Two boxes in the same row */
-      gap: 10px; /* Add some gap between the boxes */
-      justify-items: center; /* Center the boxes horizontally in mobile view */
+      grid-template-columns: repeat(2, 1fr); /* Two boxes in the same row 
+      gap: 10px; /* Add some gap between the boxes 
+      justify-items: center; /* Center the boxes horizontally in mobile view 
     }
 
     .box1,
@@ -317,7 +318,7 @@
     .box5,
     .box6 {
 		
-      margin-bottom: 50px; /* Remove margin bottom to avoid excessive spacing */
+      margin-bottom: 50px; /* Remove margin bottom to avoid excessive spacing 
     }
 	.box1,
 	.box3,
@@ -335,9 +336,9 @@
 
 
 
-  /* Laptops and desktops */
-  /* Media query for medium-sized laptops */
-/* Media query for 15-inch laptops */
+  /* Laptops and desktops 
+  /* Media query for medium-sized laptops 
+/* Media query for 15-inch laptops 
 @media (max-width: 1440px) {
   .team-content {
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
@@ -357,6 +358,65 @@
 		
   }
 }
+
+*/
+@media (max-width: 1240px) {
+  .team {
+    width: 100%;
+    height: auto;
+    padding: 90px 2%;
+  }
+
+  .center h1 {
+    font-size: 3.2rem;
+  }
+
+  .team-content {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Show three cards per row for 15-inch laptops */
+    gap: 10px; /* Add some gap between the boxes */
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6 {
+    margin-bottom: 50px; /* Remove margin bottom to avoid excessive spacing */
+  }
+
+  /* Adjust the margin for odd and even boxes */
+  /* This is specific for Redmi Note 9 (width: 1080px) and Galaxy S20 (width: 1440px) */
+  @media (max-width: 1080px) {
+    .team-content {
+      grid-template-columns: repeat(2, 1fr); /* Show two cards per row for medium-sized screens */
+    }
+
+    .box2,
+    .box4,
+    .box6 {
+      margin-left: 15px;
+    }
+  }
+
+  @media (max-width: 1440px) {
+    .box2,
+    .box4,
+    .box6 {
+      margin-left: 15px;
+    }
+  }
+
+  /* Mobile view for screens smaller than 767px */
+  @media (max-width: 767px) {
+    .team-content {
+      grid-template-columns: repeat(2, 1fr); /* Show one card per row for mobile view */
+    }
+  }
+}
+
 
 
  

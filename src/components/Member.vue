@@ -330,35 +330,29 @@
 	}
   }
   /* Laptops and desktops */
-  @media (min-width: 768px) and (max-width: 1199.98px) {
+  /* Media query for medium-sized laptops */
+/* Media query for 15-inch laptops */
+@media (max-width: 1440px) {
   .team-content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three boxes in the same row */
-    gap: 20px; /* Add some gap between the boxes */
-    justify-items: center; /* Center the boxes horizontally in the grid */
-  }
-
-  .box1,
-  .box2,
-  .box3,
-  .box4,
-  .box5,
-  .box6 {
-    margin-bottom: 0; /* Remove margin bottom to avoid excessive spacing */
-  }
-
-  .box1,
-  .box2,
-  .box3 {
-    margin-left: 0; /* Remove margin left to align boxes properly */
-  }
-
-  .box2,
-  .box4,
-  .box6 {
-    padding-right: 0; /* Remove padding right to align boxes properly */
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    /* Adjust the grid-template-columns values to fit the layout you want for 15-inch laptops */
+	margin-top: 10px;
+	
+	
+	.box4,
+	.box5,
+	.box6{
+		margin-bottom: 25px;
+		margin-top: 10px;
+	}
+	h1{
+		margin-top: 60px;
+	}
+		
   }
 }
+
+
  
   </style>
   

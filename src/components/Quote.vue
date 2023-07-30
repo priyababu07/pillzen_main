@@ -36,7 +36,7 @@
   z-index: 10;
   color: rgb(15, 14, 14);
   position: relative;
-  max-width: 200px;
+  max-width: 320px;
   margin-right: 100px;
   margin-top: 50px;
 }
@@ -95,6 +95,7 @@ section {
     margin-right: 0;
     margin-top: 15px;
     max-height: 100%;
+    width: 220px;
   }
 
   .paragraph {

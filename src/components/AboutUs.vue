@@ -70,6 +70,7 @@ p {
   line-height: 30px;
   flex: 1; /* Allow the paragraph to grow and occupy available space */
   margin-left: 10px;
+  margin-right: 10px;
 }
 
 /* Media query for mobile view */

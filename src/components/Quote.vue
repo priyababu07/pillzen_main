@@ -65,6 +65,7 @@
   font-size: 25px;
   text-align: center; /* Center the paragraph text */
   padding-top: 50px;
+
 }
 
 .image-container {

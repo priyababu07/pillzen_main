@@ -391,7 +391,7 @@
   /* This is specific for Redmi Note 9 (width: 1080px) and Galaxy S20 (width: 1440px) */
   @media (max-width: 1080px) {
     .team-content {
-      grid-template-columns: repeat(1, 1fr); /* Show two cards per row for medium-sized screens */
+      grid-template-columns: repeat(2, 1fr); /* Show two cards per row for medium-sized screens */
     }
 
     .box2,
@@ -399,11 +399,6 @@
     .box6 {
       margin-left: 15px;
     }
-    .box1,
-	.box3,
-	.box5{
-		margin-left: 16px;
-	}
   }
 
   @media (max-width: 1440px) {

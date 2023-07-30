@@ -412,8 +412,28 @@
   /* Mobile view for screens smaller than 767px */
   @media (max-width: 767px) {
     .team-content {
-      grid-template-columns: repeat(2, 1fr); /* Show one card per row for mobile view */
+      grid-template-columns: repeat(2, 1fr); /* Show two card per row for mobile view */
+
     }
+	.box2,
+    .box4,
+    .box6 {
+      margin-left: 15px;
+	  padding-right: 10px;
+    } 
+	.box1,
+	.box3,
+	.box5{
+		margin-left: 11px;
+	}
+	/* .box1,
+  .box2,
+  .box3,
+  .box4,
+  .box5,
+  .box6 {
+    margin-bottom: 50px; /* Remove margin bottom to avoid excessive spacing 
+  } */
   }
 }
 

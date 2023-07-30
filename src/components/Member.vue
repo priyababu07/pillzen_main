@@ -402,7 +402,7 @@
     .box1,
 	.box3,
 	.box5{
-		margin-left: 13px;
+		margin-left: 16px;
 	}
   }
 

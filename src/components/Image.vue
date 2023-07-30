@@ -12,6 +12,7 @@
 .image-wrapper {
 margin-top: 70px; 
 width: 100%;
+margin-bottom: 10px;
 
 }
 @media (max-width: 600px) {

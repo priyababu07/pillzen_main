@@ -340,7 +340,7 @@
 /* Media query for 15-inch laptops */
 @media (max-width: 1440px) {
   .team-content {
-    /* grid-template-columns: repeat(auto-fit, minmax(250px, auto)); */
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
    
 	margin-top: 10px;
 	

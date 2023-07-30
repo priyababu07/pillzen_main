@@ -269,6 +269,7 @@
 		width: 100%;
 		height: auto;
 		padding: 90px 2%;
+
 	}
 
 	.center h1 {
@@ -276,12 +277,13 @@
 	}
 
 	.team-content {
-		justify-content: center;
+		 justify-content: center;
 		display: flex;
-		flex-direction: column;
+		flex-direction: column; 
 		
 	}
-}
+}  
+
 
 /* @media (max-width: 767px) {
 	.team-content {
@@ -329,13 +331,17 @@
 		padding-right: 15px;
 	}
   }
+
+
+
+
   /* Laptops and desktops */
   /* Media query for medium-sized laptops */
 /* Media query for 15-inch laptops */
 @media (max-width: 1440px) {
   .team-content {
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-    /* Adjust the grid-template-columns values to fit the layout you want for 15-inch laptops */
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, auto)); */
+   
 	margin-top: 10px;
 	
 	

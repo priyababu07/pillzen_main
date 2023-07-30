@@ -424,7 +424,7 @@
 	.box1,
 	.box3,
 	.box5{
-		margin-left: 11px;
+		margin-left: 21px;
 	}
 	/* .box1,
   .box2,

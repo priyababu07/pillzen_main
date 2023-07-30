@@ -399,6 +399,11 @@
     .box6 {
       margin-left: 15px;
     }
+    .box1,
+	.box3,
+	.box5{
+		margin-left: 13px;
+	}
   }
 
   @media (max-width: 1440px) {

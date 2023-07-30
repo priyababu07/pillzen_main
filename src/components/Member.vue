@@ -393,12 +393,12 @@
     .team-content {
       grid-template-columns: repeat(2, 1fr); /* Show two cards per row for medium-sized screens */
     }
-
+/* 
     .box2,
     .box4,
     .box6 {
       margin-left: 15px;
-    }
+    } */
   }
 
   @media (max-width: 1440px) {

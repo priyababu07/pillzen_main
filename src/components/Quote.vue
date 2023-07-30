@@ -3,14 +3,16 @@
     <div class="message-bubble">
       <p class="subtitle">Pillzen offers an effortless medication tracking,<br> adherence, communication,<br> and centralized <br> medical information.</p>
     </div>
-
-    <div class="paragraph">
-      <p>"Like education, health also needs <br>to be given importance"<br>-Shiv Nadar</p>
+<section>
+  <div class="paragraph">
+      <p>"Like education, health also needs to be given importance"<br>-Shiv Nadar</p>
     </div>
 
     <div class="image-container">
       <img src="/assets/PhotoFunia-16896119541.png" alt="Your Image" class="image" />
     </div>
+</section>
+   
   </div>
 </template>
 
@@ -75,6 +77,10 @@
   height: auto;
   border-radius: 10px; /* Add border-radius to make the image rounded */
 }
+section{
+  display: flex;
+  flex-direction: row;
+}
 
   @media (max-width: 768px) {
       .container {
@@ -92,6 +98,13 @@
 .paragraph {
   font-size: 18px; /* Adjust the font size for better readability on small screens */
   margin-bottom: 15px; /* Adjust the margin for better spacing */
+}
+
+section{
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  margin-top: 20px;
 }
 }
 

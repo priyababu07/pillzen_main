@@ -90,7 +90,8 @@
 }
 .box1 {
   padding: 16px;
-  background-image: url("/assets/mem1.png");
+  /* background-image: url("/assets/mem1.png"); */
+  background-image: url("/assets/abish1.png");
   background-size: cover; /* Add this property to fit the image inside the box */
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   border-radius: 50%;

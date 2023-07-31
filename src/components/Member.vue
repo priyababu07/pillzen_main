@@ -387,7 +387,7 @@
   .box6 {
     margin-bottom: 50px; /* Remove margin bottom to avoid excessive spacing */
   }
-
+}
   /* Adjust the margin for odd and even boxes */
   /* This is specific for Redmi Note 9 (width: 1080px) and Galaxy S20 (width: 1440px) */
   @media (max-width: 1080px) {
@@ -427,16 +427,9 @@
 	.box5{
 		margin-left: 16px;
 	}
-	/* .box1,
-  .box2,
-  .box3,
-  .box4,
-  .box5,
-  .box6 {
-    margin-bottom: 50px; /* Remove margin bottom to avoid excessive spacing 
-  } */
+  
   }
-}
+
 
 
 

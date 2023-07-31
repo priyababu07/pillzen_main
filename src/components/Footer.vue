@@ -11,16 +11,16 @@ import { Icon } from '@iconify/vue';
     </h2>
     <section class="icon-section">
       <a href="https://www.instagram.com/pillzen_pvt.ltd._/" target="_blank" class="icon-link">
-        <Icon icon="fa6-brands:instagram" class="custom-icon"/>
+        <Icon icon="fa6-brands:instagram" class="custom-icon" />
       </a>
-      <a href="https://api.whatsapp.com/send?phone=8075817184" target="_blank" class="icon-link">
-        <Icon icon="fa6-brands:whatsapp" class="custom-icon"/>
+      <a href="https://api.whatsapp.com/send?phone=918075817184" target="_blank" class="icon-link">
+        <Icon icon="fa6-brands:whatsapp" class="custom-icon" />
       </a>
       <a href="mailto:abhishekbiju1920@gmail.com" class="icon-link">
-        <Icon icon="cib:gmail" class="custom-icon"/>
+        <Icon icon="cib:gmail" class="custom-icon" />
       </a>
       <a href="tel:+91 8075817184" class="icon-link">
-        <Icon icon="material-symbols:call-outline" class="custom-icon"/>
+        <Icon icon="material-symbols:call-outline" class="custom-icon" />
       </a>
     </section>
     <p>All Right Reserved @Pillzen</p>
@@ -68,5 +68,4 @@ p {
 a {
   text-decoration: none;
 }
-
 </style>

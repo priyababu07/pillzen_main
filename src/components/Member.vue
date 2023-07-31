@@ -286,14 +286,14 @@
     gap: 10px; /* Add some gap between the boxes */
   }
 
-  /* .box1,
+  .box1,
   .box2,
   .box3,
   .box4,
   .box5,
   .box6 {
-    margin-bottom: 50px; /* Remove margin bottom to avoid excessive spacing 
-  } */
+    margin-bottom: 50px; /* Remove margin bottom to avoid excessive spacing */
+  } 
 }
   /* Adjust the margin for odd and even boxes */
   /* This is specific for Redmi Note 9 (width: 1080px) and Galaxy S20 (width: 1440px) */
@@ -342,7 +342,7 @@
 	.box5{
 		 width: 90px;
      height: 100px;
-     margin-bottom: 90px;
+     margin-bottom: 100px;
 	} 
   }
 

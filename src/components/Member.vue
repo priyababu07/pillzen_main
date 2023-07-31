@@ -284,6 +284,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Show three cards per row for 15-inch laptops */
     gap: 10px; /* Add some gap between the boxes */
+    margin-left: 200px;
   }
 
   .box1,

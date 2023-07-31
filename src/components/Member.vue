@@ -340,8 +340,8 @@
 	.box1,
 	.box3,
 	.box5{
-		 width: 90px;
-     height: 100px;
+		 width: 110px;
+     height: 120px;
      margin-bottom: 100px;
 	} 
   }
